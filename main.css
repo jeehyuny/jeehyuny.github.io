@@ -55,13 +55,3 @@ a:hover {
 .icons a:hover {
     color: #1565c0;
 }
-
-.nav-item {
-    font-size: 10em;
-    color: black !important;  /* Ensures black color */
-    font-weight: 600;
-}
-
-.nav-item:hover {
-    color: #444 !important; /* Slightly darker on hover */
-}
