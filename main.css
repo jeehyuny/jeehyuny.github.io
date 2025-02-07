@@ -57,15 +57,7 @@ a:hover {
 }
 
 .nav-item {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) ;
-    text-align: center;
-    max-width: 520px;
-    line-height: 1.6em;
-    font-size: 1em;
+    font-size: 1.2em;
     color: black !important;  /* Ensures black color */
     font-weight: 600;
     padding: 0;
