@@ -91,6 +91,7 @@ a:hover {
     margin-top: 20px; /* Adjust spacing as needed */
 }
 
+<style>
 body {
     background-image: url('background.png'); /* Adjust path if needed */
     background-size: cover;
@@ -98,3 +99,5 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+</style>
+
