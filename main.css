@@ -56,31 +56,12 @@ a:hover {
     color: #1565c0;
 }
 
-.nav-bar-container {
-    display: flex;
-    justify-content: center; /* Center the nav-bar */
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.nav-bar {
-    display: flex;
-    align-items: center;
-    gap: 20px; /* Add spacing between items */
-}
-
-.nav-item-wrap {
-    display: flex;
-    gap: 20px; /* Adjusts spacing between nav items */
-}
-
 .nav-item {
     font-size: 1.2em;
-    color: black; /* Set text color to black */
+    color: black !important;  /* Ensures black color */
+    font-weight: 600;
 }
 
 .nav-item:hover {
-    color: #444 !important; /* Darker black on hover */
+    color: #444 !important; /* Slightly darker on hover */
 }
