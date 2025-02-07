@@ -86,3 +86,7 @@ a:hover {
     color: black;
     font-weight: 600;
 }
+
+.pdf-container {
+    margin-top: 20px; /* Adjust spacing as needed */
+}
