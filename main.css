@@ -90,3 +90,11 @@ a:hover {
 .pdf-container {
     margin-top: 20px; /* Adjust spacing as needed */
 }
+
+body {
+    background-image: url('background.png'); /* Adjust path if needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
