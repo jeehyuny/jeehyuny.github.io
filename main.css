@@ -27,7 +27,7 @@ a:hover {
 
 .avatar {
     border-radius: 50%;
-    width: 100px;
+    width: 150px;
 }
 
 .icons {
@@ -43,7 +43,7 @@ a:hover {
 
 .icons li {
     display: inline;
-    width: 42px;
+    width: 32px;
 }
 
 .icons a {
