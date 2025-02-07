@@ -36,7 +36,7 @@ a:hover {
     padding: 0;
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    width: 100%;
     max-width: 320px;
     margin: 0.5em auto;
 }
