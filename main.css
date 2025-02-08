@@ -137,12 +137,14 @@ body {
 }
 
 .footer-container {
+    position: absolute; /* Position relative to the nearest positioned ancestor */
     bottom: 0; /* Aligns it to the bottom */
-    right: 0; /* Aligns it to the right */
+    left: 0; /* Aligns it to the left */
     width: 100%; /* Makes it span the full width */
-    color: #808080; /* Makes the text white */
+    color: #808080; /* Text color */
     display: flex;
-    text-align: center; /* Centers the text */
-    padding: 10px 0; /* Adds some padding for better spacing */
-    font-size: 10px; /* Adjusts the font size */
+    justify-content: center; /* Centers text horizontally */
+    align-items: center; /* Centers text vertically */
+    text-align: center;
+    font-size: 10px;
 }
