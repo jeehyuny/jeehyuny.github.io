@@ -141,9 +141,8 @@ body {
     bottom: 0; /* Aligns it to the bottom */
     left: 0;
     width: 100%; /* Makes it span the full width */
-/*     background-color: black; /* Optional: Adds a background for contrast */
-    color: white; /* Makes the text white */ */
+    color: #dcdfde; /* Makes the text white */
     text-align: center; /* Centers the text */
     padding: 10px 0; /* Adds some padding for better spacing */
-    font-size: 14px; /* Adjusts the font size */
+    font-size: 12px; /* Adjusts the font size */
 }
