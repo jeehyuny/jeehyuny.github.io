@@ -137,12 +137,11 @@ body {
 }
 
 .footer-container {
-    position: fixed; /* Keeps it at the bottom even when scrolling */
     bottom: 0; /* Aligns it to the bottom */
-    left: 0;
+    right: 0; /* Aligns it to the right */
     width: 100%; /* Makes it span the full width */
     color: #dcdfde; /* Makes the text white */
     text-align: center; /* Centers the text */
     padding: 10px 0; /* Adds some padding for better spacing */
-    font-size: 12px; /* Adjusts the font size */
+    font-size: 10px; /* Adjusts the font size */
 }
