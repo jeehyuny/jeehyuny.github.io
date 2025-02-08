@@ -99,3 +99,39 @@ body {
     background-attachment: fixed;
 }
 
+.content {
+    color: white;  /* Make text white */
+    text-align: left; /* Align text properly */
+    max-width: 800px; /* Adjust width for readability */
+    margin: 100px auto; /* Center content with space from top */
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Optional: Add a semi-transparent dark background */
+    border-radius: 10px; /* Slightly rounded corners */
+}
+
+.content h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.content ol {
+    padding-left: 20px;
+}
+
+.content li {
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+.google-scholar {
+    display: block;
+    font-size: 1.1rem;
+    color: #ffcc00; /* Make it stand out with a gold color */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.google-scholar:hover {
+    color: #ffd700; /* Lighter gold on hover */
+}
