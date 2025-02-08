@@ -24,6 +24,7 @@ a:hover {
     max-width: 520px;
     padding: 32px;
     line-height: 1.6em;
+    flex: 1; /* This pushes the footer to the bottom */
 }
 
 .avatar {
