@@ -139,7 +139,7 @@ body {
 .footer-container {
     position: relative; /* Position relative to the nearest positioned ancestor */
     bottom: 0; /* Aligns it to the bottom */
-    left: 0; /* Aligns it to the left */
+    right: 0; /* Aligns it to the left */
     width: 100%; /* Makes it span the full width */
     color: #808080; /* Text color */
     display: flex;
