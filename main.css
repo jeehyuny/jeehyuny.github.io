@@ -137,7 +137,7 @@ body {
 }
 
 .footer-container {
-    position: absolute; /* Position relative to the nearest positioned ancestor */
+    position: relative; /* Position relative to the nearest positioned ancestor */
     bottom: 0; /* Aligns it to the bottom */
     left: 0; /* Aligns it to the left */
     width: 100%; /* Makes it span the full width */
