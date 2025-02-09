@@ -65,9 +65,14 @@
   <!-- Logging backend -->
   <script>
     document.getElementById("cv-download").addEventListener("click", function() {
-      fetch("https://api64.ipify.org?format=json")  // Get public IP address
-        .then(response => response.json())
-        .then(data => {
+        // Try getting both IPv4 and IPv6
+        Promise.all([
+          fetch("https://api64.ipify.org?format=json").then(response => response.json()).catch(() => null),  // IPv6
+          fetch("https://api.ipify.org?format=json").then(response => response.json()).catch(() => null)   // IPv4
+        ]).then(([ipv6Data, ipv4Data]) => {
+          let ip = ipv6Data?.ip || ipv4Data?.ip || "Unknown";
+
+          // Send the IP data to Google Apps Script
           fetch("https://script.google.com/macros/s/AKfycbxbcd1QuXkGQ_vT7OBCh8hmoPe2vrlYnCLZ3QEA-1zXuPqsjm9udK2BWGEUHX9DCe4/exec", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
