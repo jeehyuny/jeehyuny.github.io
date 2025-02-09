@@ -52,8 +52,24 @@
 <!--     <h1>My CV</h1> -->
     <iframe class="pdf-container" src="CV_JY_020825.pdf" width="100%" height="800px" style="margin-top: 20px;"></iframe>
   <center>  
-    <p><a href="CV_JY_020825.pdf" download style="color: lime;">Download CV<br>(As of Feb 8, 2025)</a></p>
+    <p><a href="CV_JY_020825.pdf" download id="cv-download" download style="color: lime;">Download CV<br>(As of Feb 8, 2025)</a></p>
   </center>
+
+  <!-- Logging backend -->
+  <script>
+    document.getElementById("cv-download").addEventListener("click", function() {
+      fetch("https://api64.ipify.org?format=json")  // Get public IP address
+        .then(response => response.json())
+        .then(data => {
+          fetch("https://script.google.com/macros/s/AKfycbxbcd1QuXkGQ_vT7OBCh8hmoPe2vrlYnCLZ3QEA-1zXuPqsjm9udK2BWGEUHX9DCe4/exec", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: new URLSearchParams({ ip: data.ip })
+          });
+        });
+    });
+  </script>
+  
     <!-- Footer Section -->
 <section class="footer-container">
     <div class="footer-text">
