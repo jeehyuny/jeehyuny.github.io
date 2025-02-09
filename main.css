@@ -15,7 +15,7 @@ a:hover {
 
 #content {
     margin-top: 50px;
-/*     position: absolute; */
+    position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
