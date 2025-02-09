@@ -15,7 +15,7 @@ a:hover {
 
 #content {
     margin-top: 50px;
-    position: absolute;
+/*     position: absolute; */
     top: 50%;
     left: 50%;
     margin-right: -50%;
@@ -24,7 +24,6 @@ a:hover {
     max-width: 520px;
     padding: 32px;
     line-height: 1.6em;
-    flex: 1; /* This pushes the footer to the bottom */
 }
 
 .avatar {
@@ -138,7 +137,7 @@ body {
 }
 
 .footer-container {
-    position: absolute; /* Position relative to the nearest positioned ancestor */
+    position: relative; /* Position relative to the nearest positioned ancestor */
     bottom: 0; /* Aligns it to the bottom */
     right: 0; /* Aligns it to the left */
     width: 100%; /* Makes it span the full width */
