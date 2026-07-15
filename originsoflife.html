@@ -66,21 +66,36 @@
         </p>
 
         <p style="text-align:justify; max-width:850px; margin:25px auto; line-height:1.7;">
-            Chemical reaction networks are the foundation of exoplanet atmospheric modeling. Traditionally, these networks have been constructed manually, 
-            making them subjective, labor-intensive, and increasingly difficult to maintain as chemical complexity grows. To address this challenge, I
-            developed an automated workflow that integrates the <a href="https://rmg.mit.edu/"target="_blank"rel="noopener noreferrer"style="color:lime; text-decoration:none;"><strong><code>Reaction Mechanism Generator (RMG)</code></strong></a>, 
-            a rate-based algorithm widely used in chemical engineering to model combustion systems, with the <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ad35c8/meta"target="_blank"rel="noopener noreferrer"style="color:lime; text-decoration:none;"><strong><code>
-            ExoPlanet Atmospheric Chemistry & Radiative Interaction Simulator (EPACRIS)</code></strong></span></a>.
+            In the first billion years of our planet's hisotry, Earth was a dynamic place, as volcanoes erupted into the atmosphere and liquid water oceans splashed across the planet. 
+            At some point more than 3 billion years, the right chemical conditions occurred for the development of living organisms. Understanding the so-called prebiotic chemistry that 
+            led to the <span style="font-weight: bold; color: magenta;"><strong>Origins of Life</strong></span> is a major field of study. 
             
-            This innovative and unique framework automatically generates chemically self-consistent reaction networks for diverse planetary atmospheres, enabling atmospheric models
-            to capture substantially greater chemical complexity while minimizing manual intervention. Since its development, 
-            <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ad35c8/meta"target="_blank"rel="noopener noreferrer"style="color:lime; text-decoration:none;"><strong><code>EPACRIS</code></strong></a> has been successfully applied to planetary atmospheres 
-            spanning from terrestrial planets to gas giants. Together, <a href="https://rmg.mit.edu/"target="_blank"rel="noopener noreferrer"style="color:lime; text-decoration:none;"><strong><code>RMG</code></strong></a> and 
-            <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ad35c8/meta"target="_blank"rel="noopener noreferrer"style="color:lime; text-decoration:none;"><strong><code>EPACRIS</code></strong></a> provides a scalable, first-principles framework for 
-            interpreting the rapidly expanding stream of observations from the <span style="font-weight: bold; color: #ffcc00;"><strong>James Webb Space Telescope (JWST)</strong></span> 
-            and future observatories.
+            Every life form on Earth stores its genetic 
+            information in the form of nucleic acids: DNA and RNA. These molecules are built from molecules called nucleotides that are made up of five canonical nucleobases: adenine (A), 
+            thymine (T), guanine (G), cytosine (C), and uracil (U), also referred to as AGTCU. Like tiny lego blocks combine to form complex structures, nucleobases string together to create long 
+            chains of nucleic acids. But these building blocks (nucleobases) themselves are complex chemical structures, and their initial formation through prebiotic chemistry is still a mystery. 
+
+            The bottleneck is the nitrogen insertion into the carbon ring (benzene is the most famous one with a hexagonal ring). Previously, the continuous polymerization of HCN was thought
+            to be the dominant way to form this carbon-ring structure in which some carbons are substituted with nitrogen forming purine and pyrimidine. However, these are challenging given 
+            the complexity of the whole reactions should go through several independent reaction surfaces without being interrupted by tons of numerous side reactions. In this study, I 
+            discovered a very simple and efficient reaction pathway that can insert nitrogen into benzene (C6H6) through just one single step, called 1,4-cycloaddition/acetylene-fragmentation (CAF), 
+            which you can see in the above gif figure. During my Ph.D. in combustion chemistry, I happened to know this type of reaction is very efficient to form polycyclic aromatic hydrocarbons, and soon I came across what if I can 
+            find the transition state between benzene and HCN, which are likely abundant in the reduced early Earth atmosphere, which nobody ever thought before.
         </p>
-    
+
+           <img src=""
+                 alt="1,4-CAF"
+                 style="
+                    display:block;
+                    width:50%;
+                    max-width:700px;
+                    margin:0 auto;">
+      
+        <p style="text-align:justify; max-width:850px; margin:25px auto; line-height:1.7;">
+            Key interesting findings is that once you form and enrich benzene and hydrogen cyanide (HCN) in the Hadean reducing atmosphere (H2-dominated), the atmosphere somehow evolves into N2- or CO2-dominated atmosphere. 
+            This is because H2-dominated atmosphere will readily hydrogenate benzene back into CH4. This does makes sense in terms of how secondary atmosphere remain after initial hydrogen/helium loss during planet evolution. 
+            Then through UV excitation chemistry, benzene and react with HCN dissolved in water (concentrated), and make pyridine (one nitrogen substituted benzene) that has the dipole moment so that can dissovle into the water, 
+            and enriched again. This procedures can contiunously happen and form enough amount of purine (building blocks for A, G) and pyrimidine (T,C, and U). 
       <div style="height:70px;"></div>
 
 
