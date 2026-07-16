@@ -45,12 +45,12 @@
     <h2 style="text-align: center;">Physical Chemistry</h2>
   <span style="text-align: center;font-weight: bold; color: #ffcc00; display: block; margin-top: -10px; margin-bottom: 50px;">Chemical Kinetics • Photochemistry</span>
       <!-- Text -->
-      <p style="text-align: justify;">
-        <span style="font-weight: bold; color: white;"> Originally trained in chemical engineering as a <a href="https://credentials.mit.edu/certificate/410e3987a79d5d1d9311b78489b54ec2"target="_blank"rel="noopener noreferrer"style="color:#c79bf7; text-decoration:none;">Physical Chemist</a>, 
-            I develop first-principles models and combine observations to understand the physics and chemistry of <span style="font-weight: bold; color: lime;">Exoplanet Atmospheres</span>.  
-            Ultimately, I hope to use these insights to identify <span style="font-weight: bold; color: cyan;">Habitable Worlds</span> and search for
-            <span style="font-weight: bold; color: magenta;">Life beyond Earth</span>. Selected research highlights are presented below.
-      </p>
+      <p style="text-align:justify; max-width:850px; margin:25px auto; line-height:1.7;">
+          Before entering <span style="font-weight:bold; color:lime;">Exoplanet Science</span>, I completed my Ph.D. in <span style="font-weight:bold; color:#c79bf7;">Physical Chemistry</span> in the 
+          Department of Chemical Engineering, where I studied fundamental <span style="font-weight:bold; color:#FF7F50;">Chemical Kinetics</span> at the molecular level. My research combines two complementary approaches:
+          <span style="font-weight:bold; color:#8600FF;">Quantum Chemistry</span> and <span style="font-weight:bold; color:#B8FF66;">Laboratory Chemical Dynamics</span>. 
+          By calculating how molecules react from first principles and directly measuring elementary reaction processes in the laboratory, I seek to understand chemistry from the fundamental laws of physics.
+        </p>
 
     <div style="height:25px;"></div>
       
@@ -64,7 +64,7 @@
             <img src="VUV-PI-TOF-MS_real.png"
                  alt="VUV-PI-TOF-MS-real"
                  style="
-                    width:90%;
+                    width:80%;
                     max-width:700px;
                     border-radius:10px;
                     display:block;
@@ -73,7 +73,7 @@
         
             <!-- Second figure with white background -->
             <div style="
-                width:90%;
+                width:80%;
                 max-width:700px;
                 margin:0 auto;
                 background-color:white;
@@ -90,7 +90,49 @@
             </div>
         
         </div>
-    
+        
+        <p style="text-align:justify; max-width:850px; margin:25px auto; line-height:1.7;">
+            <span style="font-weight:bold; color:#89FF00;"><strong>Polycyclic Aromatic Hydrocarbons (PAHs)</strong></span> are important precursors to soot and undesirable byproducts of fuel combustion. 
+            The oil industries, therefore, have a strong interest in understanding and ultimately suppressing their formation, as PAHs contribute to pollutant emissions, inefficient combustion, and global warming.
+            <br><br>
+            I investigated <span style="font-weight:bold; color:#89FF00;">PAH</span> growth using first-principles <span style="font-weight:bold; color:#8600FF;">Quantum Chemistry</span> and 
+            a <span style="font-weight:bold;"><em>"unique"</em></span> experimental apparatus combining <span style="font-weight:bold; color:#B8FF66;"><strong>Laser Absorption Spectroscopy (LAS)</strong></span> with 
+             <span style="font-weight:bold; color:#B8FF66;"><strong>Vacuum Ultraviolet Photoionization Time-of-Flight Mass Spectrometry (VUV-PI-ToF-MS)</strong></span> (shown in pictures above). Using this 
+            <span style="font-weight:bold; color:#B8FF66;">LAS/VUV-PI-ToF-MS</span> system, I directly measured, <span style="font-weight:bold;"><em>for the first time</em></span>, the time-dependent formation of 
+            <span style="font-weight:bold; color:#89FF00;">three-ring PAHs (C<sub>14</sub>H<sub>10</sub>)</span> from the <span style="font-weight:bold; color:#89FF00;">two-ring PAH naphthalene (C<sub>10</sub>H<sub>8</sub>)</span> through the <span style="font-weight:bold; color:#FF8C00;">Hydrogen-Abstraction/Acetylene-Addition (HACA)</span> mechanism.
+        </p>     
+      <div style="text-align:center; margin-top:20px;">
+
+            <!-- First figure -->
+            <img src="C12H8_measurement.png"
+                 alt="C12H8"
+                 style="
+                    width:80%;
+                    max-width:700px;
+                    border-radius:10px;
+                    display:block;
+                    margin:0 auto 15px auto;
+                 ">
+        
+            <!-- Second figure with white background -->
+            <div style="
+                width:80%;
+                max-width:700px;
+                margin:0 auto;
+                background-color:white;
+                border-radius:10px;
+                overflow:hidden;
+                box-sizing:border-box;
+            ">
+                <img src="C14H10_measurement.png"
+                     alt="C14H10"
+                     style="
+                        width:100%;
+                        display:block;
+                     ">
+            </div>
+        </div>   
+          
         <p style="text-align:center;">
             <a href="https://doi.org/10.1039/d1cp01565f"
                target="_blank"
@@ -98,21 +140,10 @@
                 Yang et al., 2021, <em>Phys. Chem. Chem. Phys.</em>
             </a>
         </p>
-
         <p style="text-align:justify; max-width:850px; margin:25px auto; line-height:1.7;">
-            Chemical reaction networks are the foundation of exoplanet atmospheric modeling. Traditionally, these networks have been constructed manually, 
-            making them subjective, labor-intensive, and increasingly difficult to maintain as chemical complexity grows. To address this challenge, I
-            developed an automated workflow that integrates the <a href="https://rmg.mit.edu/"target="_blank"rel="noopener noreferrer"style="color:lime; text-decoration:none;"><strong><code>Reaction Mechanism Generator (RMG)</code></strong></a>, 
-            a rate-based algorithm widely used in chemical engineering to model combustion systems, with the <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ad35c8/meta"target="_blank"rel="noopener noreferrer"style="color:lime; text-decoration:none;"><strong><code>
-            ExoPlanet Atmospheric Chemistry & Radiative Interaction Simulator (EPACRIS)</code></strong></span></a>.
-            <br>
-            This innovative framework automatically generates chemically self-consistent reaction networks for diverse planetary atmospheres, enabling atmospheric models
-            to capture substantially greater chemical complexity while minimizing manual intervention. Since its development, 
-            <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ad35c8/meta"target="_blank"rel="noopener noreferrer"style="color:lime; text-decoration:none;"><strong><code>EPACRIS</code></strong></a> has been successfully applied to planetary atmospheres 
-            spanning from terrestrial planets to gas giants. Together, <a href="https://rmg.mit.edu/"target="_blank"rel="noopener noreferrer"style="color:lime; text-decoration:none;"><strong><code>RMG</code></strong></a> and 
-            <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ad35c8/meta"target="_blank"rel="noopener noreferrer"style="color:lime; text-decoration:none;"><strong><code>EPACRIS</code></strong></a> provides a scalable, first-principles framework for 
-            interpreting the rapidly expanding stream of observations from the <span style="font-weight: bold; color: #ffcc00;"><strong>James Webb Space Telescope (JWST)</strong></span> 
-            and future observatories.
+            The laboratory measurements showed excellent agreement with the first-principles theoretical predictions, directly connecting <span style="font-weight:bold; color:#8600FF;">Quantum Mechanics</span> 
+            with the experimentally observed growth of complex molecules. To date, this remains the largest PAH system for which an elementary reaction rate coefficient has been directly measured in the laboratory, 
+            reflecting the substantial experimental challenges of probing elementary kinetics as molecular size and complexity increase.red in the laboratory.
         </p>
     
       <div style="height:70px;"></div>
